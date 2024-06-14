@@ -1,3 +1,11 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+
+
 table,th,td,tr,form{
     border: 1px solid black;
     border-collapse: collapse;
@@ -28,4 +36,13 @@ table,th,td,tr,form{
 
 nav a{
     display: block;
+}
+
+header{
+    border: 1px solid red;
+    border-left: 20px solid red;
+    background: lightblue;
+    margin: 10px 25px 0px 30px;
+    padding: 10px;
+
 }

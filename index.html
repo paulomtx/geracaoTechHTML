@@ -4,16 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-     <style>
-        table,th,td,tr,form{
-            border: 1px solid black;
-        }
-     </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+<header>
+
+    <img src="https://geracaotech.iel-ce.org.br/images/logo-geracao-tech.png" alt="logo programa">
+
+    <h1>Geração Tech - Desenvolvimento Front End</h1>
+    <nav>
+      
+        <a href="#listas">Tags de listas</a>
+        <a href="#tabelas">Tags Tabelas</a>
+        <a href="#formularios">Tags de Formulários</a>
+        <a href="#divisoes">Tags de divisões</a>
+    </nav>
+
+
+</header>
+
+
+<main>
     <h1>Exemplos de utilização de tags</h1>
 
-    <h2>Aprsentação das listas</h2>
+    <section id="listas">
+    
+        <h2>Aprsentação das listas</h2>
 
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus est saepe fugiat sint at commodi dignissimos cum maiores obcaecati, inventore temporibus. Omnis ipsum non labore libero accusantium fugiat illum possimus.
     </p>
@@ -41,117 +58,153 @@
         <li>janta</li>
     </ol>
 
-    <h2>Apreesentação tabelas</h2>
-    <table>
-      <!-- Títulos das Colunas-->
-      
-        <td>Coluna 1</td>
-        <td>Coluna 2</td>
-        <td>Coluna 3</td>
-    
-      <!--Informações da tabela-->
-      <tr>
-        <td>Info Linha 01 Coluna 1</td>
-        <td>Info Linha 01 Coluna 2</td>
-        <td>Info Linha 01 Coluna 3</td>
-      </tr>
-       <tr>
-        <td>Info Linha 02 Coluna 1</td>
-        <td>Info Linha 02 Coluna 2</td>
-        <td>Info Linha 02 Coluna 3</td>
-    </tr>
-    <tr>
-        <td>Info Linha 03 Coluna 1</td>
-        <td>Info Linha 03 Coluna 2</td>
-        <td>Info Linha 03 Coluna 3</td>
+    </section>
 
-
-    </tr>
-
-    <tr>
-        <td colspan="2">Info linha 3 Col 1/2</td>
-        <td>Info Linha 3 Col 3</td>
-    </tr>
-
-    <tr>
-        <td rowspan="2">  Info Linha 4/5 col1</td>
-        <td>Info Linha 4 col2</td>
-        <td>Info Linha 4 col3</td>
-    </tr>
-
-    <tr>
-        <td>Info Linha 5 col2</td>
-        <td>Info Linha 5 col3</td>
+    <section id="tabelas">
+        <h2>Apreesentação tabelas</h2>
+        <table>
+          <!-- Títulos das Colunas-->
+          
+            <td>Coluna 1</td>
+            <td>Coluna 2</td>
+            <td>Coluna 3</td>
         
-    </tr>
-
-
-
-
-    </table>
-<h2>Apresentação formulários</h2>
-<form action="#">
-
-    <label for="meu id">
-        Rótulo dsa informação a ser inseridabr
-    </label>
-    <br>
-    <input type="text" id="meu id">
-
-    <br>
-    <label for="numero">
-        Rótulo para numero
-    </label>
-    <br>
-    <input type="number" id="numero" value="1000">
-
-    <br>
-    <label for="email">Rótulo para email</label>
-    <br>
-    <input type="email" id="email" placeholder="exemplo@email.com">
-<br>
-
-<label for="senha">Rótulo para senha</label>
-<br>
-<input type="password" name="" id="senha">
-<br>
-<label for="">Exemplo caixas de seleção</label>
-<br>
-<input type="checkbox" name="selecao" id="f" value="Lojafemenino">
-<label for="f">loja  departamento femenino</label>
-<input type="checkbox" name="selecao" id="m" value="Loja Masculino">
-<label for="m">Loja departamento masculino</label>
-
-<br>
-<label for="">Exemplo de seleção única</label>
-<br>
-<input type="radio" name="selecaounica" id="um" value="1">
-<label for="um">Primeira opção</label>
-<input type="radio" name="selecaounica" id="dois" value="2">
-<label for="2">Segunda opção</label>
-<br>
-
-<label for="testeselect">seleção por lista</label>
-<br>
-<select name="testeselect" id="testeselect">
+          <!--Informações da tabela-->
+          <tr>
+            <td>Info Linha 01 Coluna 1</td>
+            <td>Info Linha 01 Coluna 2</td>
+            <td>Info Linha 01 Coluna 3</td>
+          </tr>
+           <tr>
+            <td>Info Linha 02 Coluna 1</td>
+            <td>Info Linha 02 Coluna 2</td>
+            <td>Info Linha 02 Coluna 3</td>
+        </tr>
+        <tr>
+            <td>Info Linha 03 Coluna 1</td>
+            <td>Info Linha 03 Coluna 2</td>
+            <td>Info Linha 03 Coluna 3</td>
     
-    <option value="1" disabled>um</option>
-    <option value="2">dois</option>
-    <option value="3">tres</option>
+    
+        </tr>
+    
+        <tr>
+            <td colspan="2">Info linha 3 Col 1/2</td>
+            <td>Info Linha 3 Col 3</td>
+        </tr>
+    
+        <tr>
+            <td rowspan="2">  Info Linha 4/5 col1</td>
+            <td>Info Linha 4 col2</td>
+            <td>Info Linha 4 col3</td>
+        </tr>
+    
+        <tr>
+            <td>Info Linha 5 col2</td>
+            <td>Info Linha 5 col3</td>
+            
+        </tr>
+    
+    
+    
+    
+        </table>
+    </section>
+
+    <section id="formularios">
+        <h2>Apresentação formulários</h2>
+        <form action="#">
+
+            <label for="meu id">
+                Rótulo dsa informação a ser inseridabr
+            </label>
+            <br>
+            <input type="text" id="meu id">
+        
+            <br>
+            <label for="numero">
+                Rótulo para numero
+            </label>
+            <br>
+            <input type="number" id="numero" value="1000">
+        
+            <br>
+            <label for="email">Rótulo para email</label>
+            <br>
+            <input type="email" id="email" placeholder="exemplo@email.com">
+            <br>
+        
+            <label for="senha">Rótulo para senha</label>
+            <br>
+            <input type="password" name="" id="senha">
+            <br>
+            <label for="">Exemplo caixas de seleção</label>
+            <br>
+            <input type="checkbox" name="selecao" id="f" value="Lojafemenino">
+            <label for="f">loja  departamento femenino</label>
+            <input type="checkbox" name="selecao" id="m" value="Loja Masculino">
+            <label for="m">Loja departamento masculino</label>
+        
+            <br>
+            <label for="">Exemplo de seleção única</label>
+            <br>
+            <input type="radio" name="selecaounica" id="um" value="1">
+            <label for="um">Primeira opção</label>
+            <input type="radio" name="selecaounica" id="dois" value="2">
+            <label for="2">Segunda opção</label>
+            <br>
+        
+            <label for="testeselect">seleção por lista</label>
+            <br>
+        <select name="testeselect" id="testeselect">
+            
+            <option value="1" disabled>um</option>
+            <option value="2">dois</option>
+            <option value="3">tres</option>
+        
+        
+        </select>
+        
+        <br>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Reclame aqui">
+        
+        </textarea>
+        
+        
+        
+        
+        
+        
+            </form>
+    </section>
+   <section id="divisoes">
+    <div class="div1">
+        <h2>1 
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum vitae expedita iste cupiditate sint laboriosam. Sunt ducimus ea architecto consectetur tempora quo aperiam, soluta suscipit, maxime rerum expedita ipsam nostrum!
+        </h2>
+       
+    </div>
+    <div class="div2">
+        <h2>2</h2>
+    </div>
+    <div class="div3">
+        <h2>3
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt molestiae laborum assumenda, numquam voluptatem iure consequuntur corrupti architecto quisquam veniam maxime, similique, accusamus unde ducimus enim dolorem dolores cum. Dolores laudantium voluptates voluptatibus, ab quis quae qui cum id nulla minima minus nam explicabo magni? Eos ratione atque at corrupti illum aliquid sit labore tempore asperiores ipsa, distinctio esse minus quasi enim accusamus! Impedit ratione voluptatem quo totam dicta, quos, blanditiis dolorum nesciunt id fuga delectus cum assumenda, quia voluptas soluta consequuntur facilis reiciendis necessitatibus consectetur sit similique rem nihil aliquid commodi? Dolore fugit consectetur omnis culpa provident praesentium molestias?
+        </h2>
+    </div>
+   </section>
+
+   
 
 
 
-</select>
-
-<br>
-<textarea name="" id="" cols="30" rows="10" placeholder="Reclame aqui"></textarea>
+    
+</main>
 
 
+<footer>
 
-
-
-
-</form>
+</footer>
 
 
 

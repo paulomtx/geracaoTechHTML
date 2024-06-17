@@ -40,9 +40,38 @@ nav a{
 
 header{
     border: 1px solid red;
+    border-radius: 10px;
     border-left: 20px solid red;
     background: lightblue;
     margin: 10px 25px 0px 30px;
     padding: 10px;
 
+}
+.container{
+    border: 5px solid purple;
+    padding: 15px;
+    display: flex ;
+    /*width: 500px;*/
+    height: 800px;
+    flex-direction: row;
+    justify-content: space-between; /*alinhamento eixo y center space between x*/
+    align-items: center;
+    flex-wrap: wrap;
+    
+
+}
+.vermelho{
+     background-color: red;
+     width: 150px;
+     height: 50px;
+}
+.verde{
+    background-color: green;
+    width: 450px;
+    height: 50px;
+}
+.azul{
+    background-color: blue;
+    width: 150px;
+    height: 50px;
 }

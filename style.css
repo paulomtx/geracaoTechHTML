@@ -52,26 +52,27 @@ header{
     padding: 15px;
     display: flex ;
     /*width: 500px;*/
-    height: 800px;
+    height: 400px;
     flex-direction: row;
-    justify-content: space-between; /*alinhamento eixo y center space between x*/
-    align-items: center;
-    flex-wrap: wrap;
+    justify-content: space-evenly; /*alinhamento eixo y center space between x*/
+    /*align-items: center;*/
+    flex-wrap: wrap-reverse;
+    align-content:  stretch;
     
 
 }
 .vermelho{
      background-color: red;
      width: 150px;
-     height: 50px;
+     /*height: 50px;*/
 }
 .verde{
     background-color: green;
-    width: 450px;
-    height: 50px;
+    width: 200px;
+    /*height: 50px;*/
 }
 .azul{
     background-color: blue;
     width: 150px;
-    height: 50px;
+    /*height: 50px;*/
 }
